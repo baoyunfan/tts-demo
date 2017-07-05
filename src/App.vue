@@ -3,12 +3,11 @@
     <h1 class="text-primary">TTS Demo</h1>
       <h5 class="text-muted">powered by <a href="https://vuejs.org/">Vue.js</a> and <a href="https://responsivevoice.org/">ResponsiveVoice.js</a></h5>
       <div style="margin-top: 100px"></div>
-    <InputForm @inputFormSubmit="speak"></InputForm>
+    <InputForm @inputFormSubmit="speakIt"></InputForm>
   </div>
 </template>
 
 <script>
-require('./responsiveVoice.js')
 import InputForm from './components/InputForm'
 
 export default {
@@ -17,8 +16,7 @@ export default {
     InputForm
   },
   methods: {
-    speak: function (text) {
-      console.log(text)
+    speakIt: function (text) {
       responsiveVoice.speak(text)
     }
   }
