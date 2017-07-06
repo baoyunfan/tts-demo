@@ -1,6 +1,6 @@
 # tts-demo
 
-> A Vue.js project
+> A text-to-speech demo app powered by vue.js and responsivevoice.js
 
 ## Build Setup
 
