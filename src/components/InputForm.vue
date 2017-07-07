@@ -1,5 +1,5 @@
 <template>
-  <div class="container" id="inputForm">
+  <div id="inputForm">
     <!-- form id="speakForm" class="well" v-on:submit.prevent="inputFormSubmit" -->
     <form id="speakForm" class="well">
       <div class="row">
